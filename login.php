@@ -22,7 +22,8 @@ if( isset($_POST["login"]) ) {
 		if( password_verify($password, $row["password"]) ) {
 			// set session
 			$_SESSION["login"] = true;
-
+            $_SESSION["id"] = $row["id_user"];
+        
 			header("Location: home.php");
 			exit;
 		}

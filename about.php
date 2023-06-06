@@ -20,21 +20,27 @@
 <body>
     <!-- header section start -->
     <section class="header">
-        <a href="home.php" class="logo">travel.</a>
         <nav class="navbar">
-            <a href="home.php">home</a>
-            <a href="about.php">about</a>
-            <a href="item.php">item</a>
-            <a href="preorder.php">preorder</a>
+            <a href="home.php" class="logo title">
+                <img src="images/logo.png" alt="" width="40" height="40">
+            </a>
+            <div class="nav-item">
+                <a href="home.php">home</a>
+                <a href="about.php">about</a>
+                <a href="item.php">item</a>
+                <a href="preorder.php">preorder</a>
+            </div>
+            <div class="actions-avatar">
+                <div id="menu-btn" class="fas fa-bars hamburger"></div>
+                <a href="myAccount.php" class="avatar"><img src="images/person2.jpg" alt="" width="30" height="30"></a>
+            </div>
         </nav>
-        <div id="menu-btn" class="fas fa-bars"></div>
-
     </section>
     <!-- header section end -->
 
-    <div class="heading" style="background:url(images/header-before.jpg) no-repeat">
-    <div class="glass"></div>
+    <div class="heading hero-about">
         <h1>about us</h1>
+        <div class="glass"></div>
     </div>
 
     <!-- about section start -->

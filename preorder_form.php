@@ -7,6 +7,12 @@ define('db', 'preorder_db');
 
 $conn = mysqli_connect(host, user, pass, db);
 
+$nama = "";
+$email = "";
+$phone = "";
+$quantity = "";
+$id_item = "";
+
 function registrasi($data) {
 	global $conn;
 
