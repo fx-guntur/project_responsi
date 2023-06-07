@@ -117,6 +117,7 @@ if($op == 'delete'){
                 Your Pre-order item list
             </div>
             <div class="card-body">
+                <div class="table-responsive">
                 <table class="table" style="font-size: 15px; text-align: center;">
                     <thead>
                         <tr>
@@ -172,6 +173,7 @@ if($op == 'delete'){
                     </tbody>
                     </thead>
                 </table>
+                </div>
             </div>
         </div>
     <!-- table section End -->

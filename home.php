@@ -42,21 +42,21 @@
     <section class="home">
         <div class="swiper home-slider">
             <div class="swiper-wrapper">
-                <div class="swiper-slide slide" style="background:url(images/merch1.jpg) no-repeat">
+                <div class="swiper-slide slide" style="background:url(images/hero-1.jpg) no-repeat">
                     <div class="content">
                         <span>Pre-order, Pay, Regret</span>
                         <h3>Pay now think later</h3>
                         <a href="item.php" class="btn">Discover more</a>
                     </div>
                 </div>
-                <div class="swiper-slide slide" style="background:url(images/merch2.jpg) no-repeat">
+                <div class="swiper-slide slide" style="background:url(images/hero-2.jpg) no-repeat">
                     <div class="content">
                         <span>Pre-order, Pay, Regret</span>
                         <h3>Pay now think later</h3>
                         <a href="item.php" class="btn">Discover more</a>
                     </div>
                 </div>
-                <div class="swiper-slide slide" style="background:url(images/merch3.jpg) no-repeat">
+                <div class="swiper-slide slide" style="background:url(images/hero-3.jpg) no-repeat">
                     <div class="content">
                         <span>Pre-order, Pay, Regret</span>
                         <h3>Pay now think later</h3>
